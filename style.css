@@ -1,12 +1,4 @@
-/* fix this */
-@font-face {
-font-family: sans-serif
-}
+.body{
+background-color: wheat;
 
-.name {
-float:left;
-}
-
-.menu {
-float:right;
 }
