@@ -1,12 +1,21 @@
-.body{
-background-color: wheat;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
-.img {
-max-width: 100%;
-display: block;
-}
+  li a {
+    display: block;
+    width: 60px;
+  }
 
-@media screen and (max-width: 320px) {
-    
-}
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
