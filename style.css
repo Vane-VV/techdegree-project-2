@@ -1,4 +1,12 @@
 .body{
 background-color: wheat;
+}
 
+.img {
+max-width: 100%;
+display: block;
+}
+
+@media screen and (max-width: 320px) {
+    
 }
