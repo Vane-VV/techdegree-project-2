@@ -1,21 +1,25 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+* {
+box-sizing: border-box;
+}
 
-  li a {
-    display: block;
-    width: 60px;
-  }
+.body {
+    line-height: 1.6;
+}
 
-  li a:hover {
-    background-color: #555;
-    color: white;
-  }
+h2,
+h3 {
+    margin-top: 0;
+}
 
+a {
+    text-decoration: none;
+}
 
-  .active {
-    background-color: #4CAF50;
-    color: white;
-  }
+.main-nav li {
+    text-decoration: none;
+    text-align: center;
+}
+
+@media (min-width 320px) {
+
+}
