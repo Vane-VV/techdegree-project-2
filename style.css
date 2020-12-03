@@ -1,25 +1,26 @@
-* {
-box-sizing: border-box;
+ul {
+    list-style-type: none;
 }
 
-.body {
-    line-height: 1.6;
+.my-nav {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #333;
 }
 
-h2,
-h3 {
-    margin-top: 0;
+.my-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-a {
-    text-decoration: none;
+.my-nav li {
+    float: left;
 }
 
-.main-nav li {
-    text-decoration: none;
-    text-align: center;
-}
-
-@media (min-width 320px) {
-
+.my-nav li a {
+display: inline-block;
+text-align: center;
+padding: 14px 16px;
 }
