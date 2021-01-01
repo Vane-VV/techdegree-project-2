@@ -1,4 +1,4 @@
-
+/*ignore for now
 
 body {
     margin: 5px;
@@ -12,3 +12,17 @@ img {
 @media (min-width: 768px) {
     
 }
+
+*/
+
+.wrapper {
+    margin: 5px;
+    text-align: center;
+}
+
+header {
+    background-color: rbg(248, 248, 248);
+    padding: 0 3% 1em;
+    margin-bottom: 2.5em;
+}
+
