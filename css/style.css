@@ -45,6 +45,28 @@ text-decoration: none;
     padding-left: 0;
 }
 
+.my-intro {
+    padding-bottom: 1em;
+    color: gray;
+    font-size: 1em;
+}
+
+.profile-img {
+    width: 60%;
+    margin: 1em auto 0.2em
+}
+
+.portfolio-img {
+    width: 80%;
+    height: auto;
+    margin: 1em auto 0;
+}
+
+.item-description {
+    font-size: 0.9em;
+    color: gray;
+}
+
 /*media queries*/
 @media (min-width: 768px) {
     
