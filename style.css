@@ -31,3 +31,9 @@ header {
 list-style: none;
 background-color: white;
 }
+
+.wide-nav li {
+    list-style: none;
+    background-color: white; 
+   }
+   
