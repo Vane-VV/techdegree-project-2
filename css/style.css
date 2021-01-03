@@ -9,10 +9,6 @@ img {
     margin: auto;
 }
 
-@media (min-width: 768px) {
-    
-}
-
 */
 
 /*https://fonts.google.com/*/
@@ -43,5 +39,19 @@ background-color: white;
    
 a:link, a.visited, a.hover, a.active {
 text-decoration: none;
+}
+
+.main-nav ul, .contact-div ul {
+    padding-left: 0;
+}
+
+/*media queries*/
+@media (min-width: 768px) {
+    
+}
+
+
+@media (min-width: 1024px) {
+
 }
 
