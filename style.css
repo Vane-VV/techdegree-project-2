@@ -15,6 +15,7 @@ img {
 
 */
 
+
 .wrapper {
     margin: 5px;
     text-align: center;
@@ -26,3 +27,7 @@ header {
     margin-bottom: 2.5em;
 }
 
+.main-nav li {
+list-style: none;
+background-color: white;
+}
