@@ -1,15 +1,3 @@
-/*ignore for now
-
-body {
-    margin: 5px;
-    text-align: center;
-}
-
-img {
-    margin: auto;
-}
-
-*/
 
 /*https://fonts.google.com/*/
 * {
@@ -66,6 +54,7 @@ text-decoration: none;
     font-size: 0.9em;
     color: gray;
 }
+
 
 /*media queries*/
 @media (min-width: 768px) {
