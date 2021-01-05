@@ -40,7 +40,7 @@ text-decoration: none;
 }
 
 .profile-picture {
-    width: 50%;
+    width: 60%;
     margin: 1em auto 0.2em
 }
 
@@ -57,20 +57,73 @@ text-decoration: none;
 
 footer {
     background-color: rgb(236, 233, 233);
-    padding: 1em;
+    padding: 3em;
     margin: 0 auto .5em;
 }
 
 .make-gray {
     background-color: rgb(236, 233, 233);
+    padding: 5em;
+
+}
+
+#contact {
     padding: 1em;
-    margin: 0 auto .5em;
+}
+
+.contact-div ul li {
+    list-style: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+hr {
+    margin: 3em auto 1.5em;
+    color: gray;
+    opacity: 0.5
+}
+
+.mobile-nav {
+    float: right;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.bottom-title {
+    float: left;
+    text-align: left;
+    padding-bottom: 3em;
+}
+
+.wide-nav {
+    display: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
 /*media queries*/
 @media (min-width: 768px) {
-    
+    .mobile-nav {
+    display: none;
+    float: none
+    }
+
+    .wide-nav {
+        display: inline;
+        text-align: right;
+    }
+
+    .wide-nav ul {
+        float:right;
+        list-style: none;
+        display:inline;
+        
+    }
 }
 
 
