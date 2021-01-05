@@ -40,7 +40,8 @@ text-decoration: none;
 }
 
 .profile-picture {
-    width: 60%;
+    width: 70%;
+    height: auto;
     margin: 1em auto 0.2em
 }
 
@@ -56,14 +57,14 @@ text-decoration: none;
 }
 
 footer {
-    background-color: rgb(236, 233, 233);
+    background-color: rgb(245, 239, 239);
     padding: 3em;
     margin: 0 auto .5em;
 }
 
 .make-gray {
-    background-color: rgb(236, 233, 233);
-    padding: 5em;
+    background-color: rgb(245, 245, 245);
+    padding: 1em;
 
 }
 
@@ -78,9 +79,7 @@ footer {
 }
 
 hr {
-    margin: 3em auto 1.5em;
-    color: gray;
-    opacity: 0.5
+    padding-bottom: 1em;
 }
 
 .mobile-nav {
@@ -105,6 +104,15 @@ hr {
     clear: both;
 }
 
+.titles {
+    padding: 0.5em;
+    border-radius: 2px;
+    
+}
+
+.name {
+    font-size: 1.5em;
+}
 
 /*media queries*/
 @media (min-width: 768px) {
@@ -124,6 +132,15 @@ hr {
         display:inline;
         margin: 0;
     }
+
+    .contact-information {
+        margin: 1em;
+    }
+
+    .contact-information {
+            word-break: break-all;
+        }
+ 
 }
 
 
