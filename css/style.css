@@ -155,11 +155,52 @@ hr {
         margin: 0;
     }
 
+    .item-description {
+        font-size: 20px;
+    }
 
     .contact-div {
             word-break: break-all;
         }
- 
+
+        /* float */
+
+        #wrapper {
+            width: 400px;
+            float:left; /* add this */
+            border: 10px;
+
+        }
+
+        #first {
+            width: 400px;
+            float:right; /* add this */
+            border: 10px;
+        }
+
+        #second {
+            width: 400px;
+            float:left; /* add this */
+            border: 10px;
+        }
+
+        #third {
+            width: 400px;
+            float:right; /* add this */
+            border: 10px; 
+        }
+
+        #fourth {
+            width: 400px;
+            float:left; /* add this */
+            border: 10px;
+        }
+
+        #fifth {
+            width: 400px;
+            float:right; /* add this */
+            border: 10px; 
+        }
 }
 
 
