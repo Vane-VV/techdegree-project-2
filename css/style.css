@@ -58,7 +58,7 @@ text-decoration: none;
 
 footer {
     background-color: rgb(245, 239, 239);
-    padding: 3em;
+    padding: 4px;
     margin: 0 auto .5em;
 }
 
@@ -86,12 +86,14 @@ hr {
     float: right;
     text-align: right;
     text-transform: uppercase;
+    font-size: 15px;
 }
 
 .bottom-title {
     float: left;
     text-align: left;
     padding-bottom: 3em;
+    font-size: 15px;
 }
 
 .wide-nav {
@@ -114,11 +116,31 @@ hr {
     font-size: 1.5em;
 }
 
+.contact-div {
+    text-align: center;
+    padding-right: 2em;
+    font-size: 14px;
+    }
+
 /*media queries*/
 @media (min-width: 768px) {
     .mobile-nav {
     display: none;
-    float: none
+    }
+
+    .profile-picture {
+        float: right;
+        padding-left: 10px;
+        width: 40%;
+    }
+
+    .my-intro {
+        font-size: 23px;
+        text-align: left;
+    }
+
+    .main-nav {
+        display: inline;
     }
 
     .wide-nav {
@@ -133,11 +155,8 @@ hr {
         margin: 0;
     }
 
-    .contact-information {
-        margin: 1em;
-    }
 
-    .contact-information {
+    .contact-div {
             word-break: break-all;
         }
  
