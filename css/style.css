@@ -122,8 +122,11 @@ hr {
     font-size: 14px;
     }
 
+    
+
 /*media queries*/
 @media (min-width: 768px) {
+
     .mobile-nav {
     display: none;
     }
@@ -172,40 +175,44 @@ hr {
         display: inline;
     }
 
+    .main-nav li {
+        float: left;
+    }
+
         /* float */
 
-        #wrapper {
+        #first {
             width: 350px;
             float:left; 
             border: 10px;
 
-        }
-
-        #first {
-            width: 350px;
-            float:right; 
-            border: 10px;
         }
 
         #second {
             width: 350px;
-            float:left; 
+            float:right; 
             border: 10px;
         }
 
         #third {
             width: 350px;
+            float:left; 
+            border: 10px;
+        }
+
+        #fourth {
+            width: 350px;
             float:right; 
             border: 10px; 
         }
 
-        #fourth {
+        #fifth {
             width: 350px;
             float:left; 
             border: 10px;
         }
 
-        #fifth {
+        #sixth {
             width: 350px;
             float:right; 
             border: 10px; 
