@@ -179,6 +179,12 @@ hr {
         float: left;
     }
 
+    body {
+        background-color: white;
+    }
+    
+   
+
         /* float */
 
         #first {
