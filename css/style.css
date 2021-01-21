@@ -160,6 +160,7 @@ hr {
 
     .wide-nav li {
         float: left;
+        margin: 0 10px 0;
     }
 
     .item-description {
