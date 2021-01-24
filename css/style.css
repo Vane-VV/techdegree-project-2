@@ -183,89 +183,15 @@ hr {
     body {
         background-color: white;
     }
-    
-   
-
-        /* float */
-
-        #first {
-            width: 350px;
-            float:left; 
-            border: 10px;
-
-        }
-
-        #second {
-            width: 350px;
-            float:right; 
-            border: 10px;
-        }
-
-        #third {
-            width: 350px;
-            float:left; 
-            border: 10px;
-        }
-
-        #fourth {
-            width: 350px;
-            float:right; 
-            border: 10px; 
-        }
-
-        #fifth {
-            width: 350px;
-            float:left; 
-            border: 10px;
-        }
-
-        #sixth {
-            width: 350px;
-            float:right; 
-            border: 10px; 
-        }
-}
-
+     
+    .portfolio-pic {
+        float: left;
+        width: 50%;
+    }
+       
 
 @media (min-width: 1024px) {
 
-/*
-    #wrapper {
-        width: 330px;
-        float:left; 
-        border: 10px;
 
-    }
-
-    #first {
-        width: 330px;
-        float:left; 
-        border: 10px;
-    }
-
-    #second {
-        width: 330px;
-        float:left; 
-        border: 10px;
-    }
-
-    #third {
-        width: 330px;
-        float:left; 
-        border: 10px; 
-    }
-
-    #fourth {
-        width: 330px;
-        float:left; 
-        border: 10px;
-    }
-
-    #fifth {
-        width: 340px;
-        float:left; 
-        border: 10px; 
-    }
-*/
 }
 
