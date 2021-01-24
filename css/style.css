@@ -122,7 +122,9 @@ hr {
     font-size: 14px;
     }
 
-    
+.wrapper {
+    margin: 0;
+}
 
 /*media queries*/
 @media (min-width: 768px) {
@@ -194,13 +196,24 @@ hr {
        
     .item-description {
         padding: 2px 15px 4px 15px;
-        font-size: 20px;
+        font-size: 19px;
     }
 
-    .contact-div {
-        padding-top: 50px;
+    .contact-title{
+        margin: 50px 0px 5px 0px;
     }
 
+    .wrapper {
+        margin: 0;
+    }
+
+    .contact-div li {
+        margin: 10px 0 25px 0;
+    }
+
+    hr {
+        margin: 50px 0 0 0;
+    }
 @media (min-width: 1024px) {
 
 
