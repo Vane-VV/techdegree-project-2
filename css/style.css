@@ -177,11 +177,14 @@ hr {
     }
 
     .main-nav li {
-        float: left;
+        padding: 15px;
+        display: inline;
+        background-color: transparent;
     }
 
+
     body {
-        background-color: white;
+        background-color: transparent;
     }
      
     .portfolio-pic {
@@ -189,6 +192,14 @@ hr {
         width: 50%;
     }
        
+    .item-description {
+        padding: 2px 15px 4px 15px;
+        font-size: 20px;
+    }
+
+    .contact-div {
+        padding-top: 50px;
+    }
 
 @media (min-width: 1024px) {
 
