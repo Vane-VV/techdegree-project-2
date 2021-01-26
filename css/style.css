@@ -10,7 +10,7 @@
 }
 
 header {
-    background-color: rbg(248, 248, 248);
+    background-color:rgb(245, 245, 245);
     padding: 0 3% 1em;
     margin-bottom: 2.5em;
 }
@@ -122,8 +122,13 @@ hr {
     font-size: 14px;
     }
 
-.wrapper {
+body {
     margin: 0;
+    padding-bottom: 0;
+}
+
+footer {
+    margin-bottom: 0;
 }
 
 /*media queries*/
@@ -176,6 +181,7 @@ hr {
 
     .wide-nav {
         display: inline;
+
     }
 
     .main-nav li {
@@ -214,6 +220,13 @@ hr {
     hr {
         margin: 50px 0 0 0;
     }
+
+    .wide-nav li {
+        background-color: transparent;
+    }
+
+}
+
 @media (min-width: 1024px) {
 
     .name {
@@ -237,7 +250,9 @@ hr {
     }
 
     
-
+    .portfolio-pic {
+        float:left;
+        width: 33.33%;
+    }
 
 }
-
